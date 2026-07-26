@@ -17,7 +17,7 @@ export function WorkflowSectionCard({
   actionLabel = "Run Step",
 }: WorkflowSectionCardProps) {
   return (
-    <Card id={step.id}>
+    <Card>
       <CardHeader>
         <SectionHeader
           title={
